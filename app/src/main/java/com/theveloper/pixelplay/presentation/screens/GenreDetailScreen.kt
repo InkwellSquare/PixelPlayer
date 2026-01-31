@@ -672,7 +672,7 @@ fun LazyListScope.ArtistSection(
                     Spacer(Modifier.width(12.dp))
                     Text(
                         text = section.artistName,
-                        style = MaterialTheme.typography.titleLarge,
+                        style = MaterialTheme.typography.titleMedium,
                         fontWeight = FontWeight.Bold,
                         maxLines = 2,
                         overflow = TextOverflow.Ellipsis,
